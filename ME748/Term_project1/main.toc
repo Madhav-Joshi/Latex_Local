@@ -1,0 +1,29 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Model Specification}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Pictorial Depiction}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Geometry and Material}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Dimensions of every component}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Masses of every component}{2}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Moments of inertia of every component}{4}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Constraints}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Motion Transmission}{4}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Driving Component}{4}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Component which gives output of interest}{4}{subsubsection.1.4.2}%
+\contentsline {section}{\numberline {2}Kinematic Simulation}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Output Component}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Simulated and Expected displacement profile}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Simulated and Expected velocity profile}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Simulated and Expected acceleration profile}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Comments}{5}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Sensitivity Analysis}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Analysis of joint clearance}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Normal speed}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Higher speed}{6}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Validation of kinematic simulation}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Theoretical evaluation of kinematic parameters}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Comparison of kinematic parameters}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Displacement}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Velocity}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Acceleration}{6}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Comments}{6}{subsubsection.3.2.4}%

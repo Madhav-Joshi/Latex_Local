@@ -1,0 +1,100 @@
+\documentclass[a4paper,latin,center,onecolumn]{paper} 
+\usepackage[english]{babel}
+\usepackage{hyperref}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{booktabs}
+
+\sectionfont{\large\sf\bfseries\color{black!60!blue}} 
+\subsectionfont{\normalsize\sf\bfseries}
+
+\title{ME6114: Joint Biomechanics}
+
+\subtitle{Midterm Report: Ankle Joint \\
+\hfill\includegraphics[height=2cm]{Images/Indian_Institute_of_Technology_Bombay_Logo.png}
+\vspace{-2cm}}
+
+\institution{Indian Institute of Technology Bombay}
+
+\author{(190020115)	Suryansh Singh \\
+        (190100053) Hardik Shrivastava \\
+        (190110034) Madhav Joshi \\
+        (200100064)	Gauri Patle \\ 
+        (20D100023) Samay Jain \\
+        (213230011)	Sayan Ray \\ 
+        (22D0882) 	Harish Gunjal \\
+        (22M0144) 	Himanshu Gupta \\
+        (22M1697) 	Utkarsh Tripathi \\
+        (22M1840) 	Shubham Chaudhary \\ 
+        (30004815)  Eshan Kshatriya} 
+
+
+\begin{document}
+    \selectlanguage{english}
+    % \twocolumn[\maketitle 
+    %     \hrule 
+    %     \bigskip
+    % ]
+    \onecolumn\maketitle 
+    \hrule 
+    \bigskip
+
+    \begin{abstract}
+        This is the first assignment of the course ME748, Compurter Aided Simulation of Machines. In this assignment we have to select a mechanism and prepare a report about it. In subsequent term projects we have to do a detailed kinematic and dynamic analysis of this chosen mechanism. Mechanism chosen here is a \it{rice transplanter}.
+    \end{abstract}
+
+    \smalltableofcontents
+
+    \section{Mechanism Description} 
+        \subsection{Sketch}
+            \begin{figure}[hbt!]
+                \centering
+                \includegraphics[width=0.6\columnwidth]{Images/Indian_Institute_of_Technology_Bombay_Logo.png}
+                \caption{Custom Sketch of Rice transplanter mechanism}
+                \label{fig:mySketch}
+            \end{figure}
+            
+            Referring to fig~\ref{fig:mySketch}, the mechanism which I thought about is basically a double 4-bar mechanism working simultaneously and out of phase by 180 deg. The yellow link in the figure is the crank which has couplers attached on both ends. The pistol shaped thing is basically the head which takes the seedlings from the densely grown soil bed placed at the back of the vehicle. The green links are the output links of the 4-bar mechanism which help the head on the coupler maintain its position and orientation to trace a particular trajectory. \par
+            But commercially, non circular gear based mechanisms are used, due to which the size of the mechanism is reduced considerably. 
+            \begin{figure}[hbt!]
+                \centering
+                \includegraphics[width=0.6\columnwidth]{Images/Indian_Institute_of_Technology_Bombay_Logo.png}
+                \caption{Side views of 3D model of Pot Seedling Transplanter mechanism: (a) front view and (b) lateral view}
+                \label{fig:refSketch}
+            \end{figure}
+
+            Referring to fig~\ref{fig:refSketch} from paper \cite{camPST} on Pot Seedling Transplanter (PST), we can see that the construction of the mechanism is done using non circular gears, which also provide the advantage of simple installation, protection from external environment and reduction in material cost.
+        
+        \subsection{Description}
+            A rice transplanter is a specialized transplanter fitted to transplant rice seedlings onto paddy field. There are mainly two types of rice transplanters, riding type and walking type. Riding type is power driven and can usually transplant six lines in one pass. On the other hand, walking type is manually driven and can usually transplant four lines in one pass. But both of them are costly so many consumers transplant manually. If we transplant rice manually, it takes a lot of time to plant large number of plants. So we use mechanical transplanting machine. Mechanical transplanting of rice is the process of transplanting young rice seedlings, which have been grown in a mat nursery, using a self-propelled rice transplanter. \par
+            
+            Here, riding type transplanter mechanism has been chosen for the assignment and subsequent term projects. There is mainly one crank or rotating gear which keeps the relative trajectory of the end effector fixed.
+
+        \subsection{Application}
+            Apart from transplanting rice seedlings, this mechanism can also be used to transplant other kind of seedlings with small modifications. In rice plantation, a significant 30\% of the time is taken up to transplant the rice seedlings. This riding type transplanter drastically improves the speed. Rice is the most important cereal food crop of India, it occupies about 23.3\% of the gross cropped area of the country and plays an important role in national food grain supply. Thus approximately 23.3\% cultivated land used for growing rice.
+        
+
+    \begin{thebibliography}{999}
+
+        \bibitem{camPST}
+            Liang Sun, Xuan Chen, Chuanyu Wu, Guofeng Zhang, Yadan Xu, 
+            \emph{Synthesis and design of rice pot seedling transplanting mechanism based on labeled graph theory},
+            Computers and Electronics in Agriculture,
+            Vol. 143,
+            2017,
+            Pages 249-261,
+            ISSN 0168-1699,
+            \href{https://doi.org/10.1016/j.compag.2017.10.021}{https://doi.org/10.1016/j.compag.2017.10.021}
+            
+        \bibitem{6rowManuallyOperatedTransplanter}
+            Yadav, Dr \& Mital, Patel \& P, Shukla \& Pund, Sahastrarashmi. (2007). \emph{Ergonomic evaluation of manually operated six-row paddy transplanter.} International Agricultural Engineering Journal. 16. 147-157. 
+        
+        \bibitem{selfPropelled}
+            Guru, Prabhat \& Chhuneja, Naresh \& Dixit, Anoop \& Tiwari, Prem \& Kumar, Anjani. (2018). \emph{Mechanical transplanting of rice in India: Status, technological gaps and future thrust.} ORYZA- An International Journal on Rice. 55. 10.5958/2249-5266.2018.00012.7. 
+        
+    \end{thebibliography}
+
+\end{document}

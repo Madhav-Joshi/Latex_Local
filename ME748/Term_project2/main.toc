@@ -1,0 +1,9 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Static Force Analysis}{1}{section.1}%
+\contentsline {section}{\numberline {2}Validation of static force analysis}{2}{section.2}%
+\contentsline {section}{\numberline {3}Dynamic motion analysis}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Constant driving force/torque}{2}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Velocity and Acceleration}{2}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Sub2}{2}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Sinusoidal driving force/torque}{2}{subsection.3.2}%

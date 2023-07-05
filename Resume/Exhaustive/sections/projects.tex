@@ -1,0 +1,114 @@
+\section{Projects}
+
+\cventry{Jan'23 \\ Feb'23}{JLR Robot Charging Challenge {\textbar} Inter IIT Tech Meet 11.0}{}{}{}{\textit{Bagged the \textbf{$1^{st}$ runner up} out of a total of ------ participants from various IIT's across India}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item The task was to devise a system that can automatically detect the charging port of the vehicle and plug the socket into the charging port
+    \item In a team of 13, we designed a 6 DoF robotic arm using Solidworks for maximum range of motion without self collision and simulated it on MATLAB and Simscape
+    \item Generated trajectory of system to move the end effector in a straight line from the starting pose to given end pose respecting the self collisions, joint limits and velocity constraints of each part of the system
+    \item Performed the torque and energy calculations to respect torque limits on the joint motors and compare energy consumed for traversing different trajectories i.e. straight line trajectory in cartesian as well as joint space by calculating the analytical inverse kinematics and choosing nearest solution at every point in trajectory
+\end{itemize}}
+
+\cventry{Feb'22 \\ May'22}{H-Bot 3D Printer}{}{}{}{\textit{Course: Design of Mechatronic Systems} {\textbar} \textit{Guide: \href{https://www.me.iitb.ac.in/~gandhi/}{Prof. Prasanna Gandhi}, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item  Used TIVA C microcontroller, stepper motors, timing pulleys, aluminum extrusions and LSM13 linear encoder to construct H-Bot 3D printer mechanism
+    \item Used PWM signals to drive two stepper motors simultaneously, QEI to read linear encoder values and implement a subroutine to take the station to the desired input position 
+\end{itemize}}
+
+\cventry{Feb'22 \\ May'22}{Temperature Control of Fluid Column}{}{}{}{\textit{Course: Advanced Feedback Theory} {\textbar} \textit{Guide: \href{https://scholar.google.co.in/citations?user=Sm0PDg8AAAAJ&hl=en}{Prof. P.S.V. Nataraj}, \href{https://www.sc.iitb.ac.in/}{SysCon}, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item  Modelled the integrating system by performing bump test and recording data from NI DAQ card from MATLAB interface
+    \item Tuned and tested the PI controller according to Ziegler Nichols tuning rules and added a feed forward block to improve disturbance rejection
+\end{itemize}}
+
+\cventry{Feb'22 \\ May'22}{Vision Transformer on Small Data-set}{}{}{}{\textit{Course: Machine Learning for Remote Sensing} {\textbar} \textit{Guide: \href{https://scholar.google.it/citations?user=IEcsMPAAAAAJ&hl=en}{Prof. Biplab Banerjee}, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item  Implemented current SOTA ViT and SL-ViT on CIFAR-10 and CIFAR-100 datasets for image classification to increase locality inductive bias compared to ViT
+    \item SL-ViT uses Shifted Patch Tokenization which embeds more spatial information into visual tokens and Locality Self Attention makes ViT’s attention locally focused
+    \item Achieved top-5 accuracy of 99.13\% for CIFAR-10 and 82.92\% for CIFAR-100 dataset
+\end{itemize}}
+
+\cventry{Feb'22 \\ May'22}{Pendulum Clock}{}{}{}{\textit{Course: Machine Design} {\textbar} \textit{Guide: \href{https://www.me.iitb.ac.in/?q=faculty/Prof.\%20V.\%20Kartik}{Prof. V. Kartik}, CSRE, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item  Designed escapement mechanism, involute gears, pendulum and stand in solidworks
+    \item Verified any collisions 
+\end{itemize}}
+
+\cventry{Feb'22 \\ May'22}{Two Degrees of Freedom Robotic Arm}{}{}{}{\textit{Course: Robotics} {\textbar} \textit{Guide: \href{https://scholar.google.co.in/citations?user=EI2hj8gAAAAJ&hl=en}{Prof. Abhishek Gupta} {\textbar} Mechanical Engineering, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item  Built a 2 Degree-of-Freedom Robotic Arm which moves in a plane to coordinates pointed by a red spot detected by phone camera around the bot
+    \item Designed a \textbf{CAD model} for the robot in \textbf{Solidworks} consisting of Servo motors, joints and links of robot to \textbf{3-D print} all components required to assemble the robot
+    \item Developed red spot detection algorithm, Forward and Inverse Kinematics in \textbf{MATLAB} for calculating joint parameters, current and desired position of end-effector
+    \item Integrated \textbf{Arduino} with MATLAB for implementing \textbf{closed loop feedback control}
+\end{itemize}}
+
+\cventry{Mar'22 \\ Apr'22}{Optimization of Swiggy Instamart Hub Locations}{}{}{}{\textit{Course: IEOR} {\textbar} \textit{Guide: \href{https://www.me.iitb.ac.in/?q=faculty/Prof.\%20Avinash\%20Bhardwaj}{Prof. Avinash Bharadwaj} {\textbar} Mechanical Engineering, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Modelled the revenue system of Swiggy Instamart as an \textbf{integer programming problem} by considering investment costs, operating costs and profits from all probable hub locations
+    \item Optimized the net profit for the cases where hubs have limited or infinite capacity to store the products using CPLEX solver in \textbf{AMPL}
+    \item Checked model robustness by performing uncertainty and risk analysis
+\end{itemize}}
+
+\cventry{Jul'21 \\ May'22}{Stride {\textbar} Student Technical Team}{}{}{}{\textit{Focuses on building a quadruped which can walk autonomously on all terrain} {\textbar} \textit{IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Coded Newton-Euler method in \textbf{MATLAB} to find the reaction forces and torques required to produce desired angular velocities and acceleration in any configuration
+    \item Reviewed \textbf{MIT Cheetah 3 robot} design, \textbf{MPC} implementation using QP formulation in \textbf{ROS} and tried to simulate Gazebo and RViz
+    \item Researched trajectory generation using Bezier curves, localization and mapping of the quadruped in the given environment
+\end{itemize}}
+
+\cventry{Aug'21 \\ Nov'21}{Foot Pump Manufacturing Design}{}{}{}{\textit{Course: Manufacturing Processes} {\textbar} \textit{Guide: \href{https://www.me.iitb.ac.in/?q=faculty/Prof.\%20Deepak\%20Marla}{Prof. Deepak Marla} {\textbar} Mechanical Engineering, IITB}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Studied manufacturing aspects of foot-pump including \textbf{Material and Process selection, Design and Inspection}
+    \item Modelled every part of the pump and assembled them in \textbf{Solidworks}
+    \item Carried out \textbf{cost analysis} based on the pump dimensions, materials and process used
+\end{itemize}}
+
+\cventry{Jun'21 \\ Jul'21}{Algorithmic Trading {\textbar} FinSearch}{}{}{}{\textit{Finance Club of IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Grasped stock market knowledge from \textbf{financial modules} of Zerodha Varsity on basics of stock market, technical and fundamental analysis, Futures \& Options and their strategies, trading systems like pairs trading
+    \item Scouted various trading strategies and implemented \textbf{pairs trading} strategy after back-testing results in Python and were among \textbf{top 6 teams} awarded with a cash prize of Rs 5 K for exemplary performance
+\end{itemize}}
+
+\cventry{May'21}{Laser Surface Hardening (LSH)}{}{}{}{\textit{Course: Manufacturing Processes} {\textbar} \textit{Guide: \href{https://www.me.iitb.ac.in/~ramesh/}{Prof Ramesh K Singh} {\textbar} Mechanical Department, IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Analysed and simulated LSH process via \textbf{FEM} using open-source \textbf{FEniCS} project collaborating in a \textbf{team of 5}
+    \item Reviewed 5+ research papers and numerically worked out \textbf{transient heat equation} to calculate temperature field and developed a model to find the \textbf{laser velocity} for required \textbf{hardened depth} and vice versa
+\end{itemize}}
+
+\cventry{Jun'20}{Analemma {\textbar} Krittika Summer Project}{}{}{}{\textit{Krittika - Astronomy Club of IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Inspected the motion of sun using different \textbf{celestial coordinate systems} and developed a python code to generate the data points of Analemma and calculated its various properties with \textbf{98\% accuracy} 
+    \item Generated \textbf{2D} and \textbf{3D interactive plots} and \textbf{colormaps} of Analemma and its properties using Matplotlib and calculated its properties like shape, size and position to study their variation with the orbital parameters both qualitatively and quantitatively
+\end{itemize}}
+
+\cventry{Apr'20}{Frequency Analysis of Linear Systems}{}{}{}{\textit{Controls and Dynamical Systems Group of IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Implemented MATLAB codes to design \textbf{low pass} and \textbf{high pass} filters in frequency domain to study the trade-off between smoothness and sharpness while filtering noise from an image
+    \item Analysed the use of \textbf{frequency domain} in \textbf{spatial} and \textbf{time} domain analysis of systems by applying the knowledge of Signals and Feedback Systems including Time-Frequency analysis, Filters and Convolution
+\end{itemize}}
+
+\cventry{Sep'19}{Remote Controlled Plane}{}{}{}{\textit{Aeromodelling club of IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Fabricated fuselage, stabilizers and wings of a miniature aircraft to \textbf{reduce drag} and improve flight time
+    \item Optimized the \textbf{performance} and \textbf{stability} of flight by careful consideration of design parameters
+\end{itemize}}
+
+\cventry{Aug'19}{XLR8 {\textbar} Obstacle Manoeuvring Bot}{}{}{}{\textit{Electronics and Robotics Club of IIT Bombay}\\
+\vspace{-10pt}
+\begin{itemize}
+    \item Designed and built a \textbf{Mobile App Controlled Bot} having Differential Steering using Bluetooth module to overcome various hurdles in the least possible time among 450+ participants
+    \item Implemented the electrical sub-system for RC car utilizing \textbf{AT Tiny} micro-controller for controlling the bot
+\end{itemize}}
